@@ -1,0 +1,242 @@
+/* Общие св-ва */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+}
+.col {
+  flex: 1 0 0%;
+}
+.body {
+  width: auto;
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*///////////////////// HEADER ///////////////////////*/
+.info-adress {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #14320a;
+}
+.info-entry {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #14320a;
+}
+.info {
+  background-color: #ffffff;
+  background-size: cover;
+}
+.info-block {
+  display: flex;
+  justify-content: space-between;
+  height: 49px;
+  align-items: center;
+}
+/*///////////////////// PROMO ////////////////////////*/
+.promo {
+  display: flex;
+  margin-bottom: 112px;
+  justify-content: space-between;
+}
+.btn {
+  width: 153px;
+  height: 34px;
+  background: #382100;
+  mix-blend-mode: normal;
+  border-radius: 20px 0px;
+}
+.btn-buy {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.btn-primary {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 7px 25px 8px;
+  mix-blend-mode: normal;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+/*////////////////////////// NAV-MENU ////////////////////////////*/
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.nav-link {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #382100;
+}
+.nav-logo {
+  display: flex;
+}
+.basket {
+  display: flex;
+  align-items: flex-end;
+}
+.hr-header {
+  margin-top: 20px;
+  border-bottom: 2px solid #382100;
+  opacity: 0.5;
+}
+/*/////////////////////////// MAIN /////////////////////////////*/
+.main {
+  padding: 8px 0px 62px;
+  background-color: #6c9a31;
+}
+.main-nav {
+  margin-bottom: 68px;
+}
+.contacts {
+  display: flex;
+  margin-bottom: 72px;
+}
+.contacts-title {
+  display: flex;
+  align-items: center;
+}
+.contacts-title img {
+  margin-right: 24px;
+}
+.connection {
+  width: 510px;
+}
+.connection h1 {
+  font-family: Golos;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+}
+.connection p {
+  font-family: Golos;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #ffffff;
+}
+.info-contacts p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.info-contacts address,
+.info-contacts a {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.roadmap-item {
+  display: flex;
+  align-items: center;
+}
+.roadmap-title {
+  margin-left: 1rem;
+  color: #14320a;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+.btn-roadmap {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 100px 0 100px 0;
+  background: #382100;
+  mix-blend-mode: normal;
+  border-radius: 30px 0px;
+  color: white;
+  width: 188px;
+  height: 42px;
+}
+/*///////////////////// FOOTER /////////////////////////*/
+footer {
+  background-image: url(../img/svg-img/footer_catalog_bg.svg);
+  background-repeat: no-repeat;
+  background-color: #14320a;
+  padding: 27px 0px 45px;
+}
+.footer-menu {
+  margin-bottom: 0xp;
+}
+.footer-menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link-footer {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+}
+.copyright img {
+  margin-right: 13px;
+}
+.copyright p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

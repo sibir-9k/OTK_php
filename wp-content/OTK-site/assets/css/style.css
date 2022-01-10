@@ -1,0 +1,619 @@
+/*/////////////////////// Общие св-ва /////////////////////////*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+}
+.col {
+  flex: 1 0 0%;
+}
+.body {
+  width: auto;
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* Инфо-блок */
+
+.info {
+  background-color: #6c9a31;
+  background-size: cover;
+}
+
+.info-block {
+  display: flex;
+  justify-content: space-between;
+  height: 49px;
+  align-items: center;
+}
+
+/* Все хорошо */
+.info-adress {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #14320a;
+}
+.info-entry {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+/*////////// Промо блок  //////////////*/
+
+.promo-header {
+  position: relative;
+  overflow: hidden;
+  background: url("../img/header-bg.jpg") no-repeat;
+  background-size: cover;
+}
+
+.main-nav {
+  padding: 47px 0px 30px 0px;
+  margin-bottom: 111px;
+}
+
+/*//////////////////////// NAV MENU //////////////////////*/
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.nav-link {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.nav-logo {
+  display: flex;
+}
+.basket {
+  display: flex;
+  align-items: flex-end;
+}
+.hr-header {
+  margin-top: 20px;
+  border-bottom: 2px solid #ffffff;
+  opacity: 0.5;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo-title {
+  width: 946px;
+  display: flex;
+  justify-content: center;
+}
+.promo-title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 29px;
+}
+.promo-text {
+  width: 595px;
+  display: flex;
+  justify-content: center;
+}
+.promo-text p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+/* Все хорошо */
+
+/* Каталог */
+
+.catalog {
+  padding: 42px 0px 84px;
+  background-color: #f4fcea;
+}
+
+.catalog-header {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 71px;
+}
+.tree {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 62px;
+}
+ul.list-group {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.catalog-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  height: 100%;
+}
+a {
+  color: #14320a;
+  text-decoration: none;
+}
+.catalog-icon p {
+  width: 261px;
+  height: 82px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #14320a;
+  margin-top: 50px;
+}
+.catalog-icon strong {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+.catalog-list {
+  display: flex;
+}
+.catalog-title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.catalog-item img:hover {
+  background: rgba(108, 154, 49, 0.7);
+}
+.card:hover {
+  background: rgba(108, 154, 49, 0.2);
+}
+/*  Агроткань */
+.coating-header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 26px;
+}
+/* Полоска снизу */
+.hr-min {
+  width: 141px;
+  border-bottom: 3px solid #14320a;
+  text-align: center;
+  opacity: 1;
+}
+/* Кнопка */
+.button {
+  display: flex;
+  justify-content: center;
+}
+.btn-all {
+  width: 185px;
+  height: 44px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  border: 2px solid #14320a;
+  color: black;
+  cursor: pointer;
+}
+.btn-all a {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+/*/////////////// Home //////////////////////*/
+.home {
+  display: flex;
+  background: url(../img/home-bg.jpg) #6c9a31;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #6c9a31;
+  padding-top: 54px;
+  padding-bottom: 60px;
+}
+.home-title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #14320a;
+}
+.home-checked {
+  display: flex;
+  list-style-type: none;
+  align-items: baseline;
+}
+.home-checked p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.home-checked img {
+  margin-right: 25px;
+}
+.border-check {
+  width: 456px;
+  margin-top: 10px;
+  margin-bottom: 19px;
+  border-bottom: 3px solid #ffffff;
+}
+.home-header {
+  width: 595px;
+}
+/* Sale */
+.sale {
+  display: flex;
+  margin-bottom: 65px;
+}
+.sale-block {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.block {
+  text-align: center;
+  height: 100%;
+}
+/*/////////// На что вы можете расчитывать ////////////////*/
+.benefits {
+  padding: 80px 0px 120px;
+  background-image: url(../img/bg-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.benefits-points {
+  display: flex;
+}
+.benefits-header {
+  color: #ffffff;
+}
+.hr-min_white {
+  width: 254px;
+  border-bottom: 3px solid #ffffff;
+  text-align: center;
+  opacity: 1;
+  margin-bottom: 115px;
+}
+.benefits-list_title {
+  color: #ffffff;
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 70px;
+}
+.benefits-title_img {
+  margin-right: 30px;
+}
+.benefits-titel_text h2 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.benefits-titel_text p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+/* ///////////////////////////////// DELIVERY //////////////////////////////////// */
+.delivery {
+  padding: 93px 0px 0px;
+  background-image: url(../img/paper-texture-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hr-min_black {
+  width: 254px;
+  border-bottom: 3px solid #382100;
+  text-align: center;
+  opacity: 1;
+}
+.delivery-text {
+  margin: 63px 0px 45px;
+}
+.delivery-text p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.delivery-text strong {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  color: #000000;
+}
+.delivery-tel,
+.delivery-email {
+  display: flex;
+  align-items: center;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+.delivery-tel img,
+.delivery-email img {
+  margin-right: 21px;
+}
+.delivery-block2 {
+  padding: 79px 68px 59px 98px;
+  background: #14320a;
+  border-radius: 100px 0px;
+}
+.d-block2 {
+  margin-bottom: 45px;
+}
+.d-block2 h2 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.d-block2 p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+/* /////////////////////////////// SCHEME ///////////////////////////////////////// */
+
+.scheme {
+  padding-bottom: 113px;
+  background-image: url(../img/paper-texture-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*///////////////////////////////// BLOG //////////////////////////////////////////// */
+.blog {
+  padding: 37px 0px 50px;
+  background-color: #f4fcea;
+}
+.blog-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-header h2 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #14320a;
+}
+.blog-text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #14320a;
+}
+.blog-card {
+  text-align: center;
+}
+.blog-card_text {
+  padding-top: 23px;
+}
+.blog-card_text strong {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #14320a;
+}
+.blog-card_text p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.5px;
+  text-align: center;
+  color: #14320a;
+  margin-top: 10px;
+}
+/*/////////////////////////////// RECOMMENDATION //////////////////////////////*/
+
+.recommendation {
+  display: flex;
+  padding: 53px 0px 57px;
+  background-color: #6c9a31;
+}
+.recommendation-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo-recomendation img {
+  background-color: transparent;
+  border-radius: 100%;
+}
+.recommendation-text p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #14320a;
+  margin-bottom: 30px;
+}
+.recommendation-text strong {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #14320a;
+}
+
+.carousel-item {
+  margin-right: 39px;
+}
+.park {
+  width: 147px;
+  height: 65px;
+}
+.photo-rec {
+  width: 92px;
+  height: 92px;
+  background-color: transparent;
+  border-radius: 100%;
+}
+/*/////////////////////////////// QQ ////////////////////////////////////////////////*/
+.qq {
+  padding-top: 74px;
+  background-color: #14320a;
+  color: #ffffff;
+}
+.svg-picture {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.qq-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qq-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.qq-tel {
+  display: flex;
+  flex-direction: column;
+}
+.qq-tel a,
+.info-contacts a {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.qq-mail {
+  display: flex;
+  flex-direction: column;
+}
+/*///////////////////////////////// FOOOTER ///////////////////////////////////////*/
+footer {
+  background-image: url(../img/svg-img/footer_main_bg.svg);
+  background-repeat: no-repeat;
+  background-color: #6c9a31;
+  padding: 27px 0px 45px;
+}
+.footer-menu {
+  margin-bottom: 0xp;
+}
+.footer-menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link-footer {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+}
+.copyright img {
+  margin-right: 13px;
+}
+.copyright p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

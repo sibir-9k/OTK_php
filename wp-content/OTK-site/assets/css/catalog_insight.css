@@ -1,0 +1,318 @@
+/*///////////// General ///////////////////*/
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@font-face {
+  font-family: "Golos";
+  src: url("../fonts/Golos-Text_Medium.woff"), url("../fonts/Golos-Text_Medium.woff2") ;
+}
+/*///////////////////// HEADER ///////////////////////*/
+.info-adress {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #14320a;
+}
+.info-entry {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.info {
+  background-color: #6c9a31;
+  background-size: cover;
+}
+.info-block {
+  display: flex;
+  justify-content: space-between;
+  height: 49px;
+  align-items: center;
+}
+/*///////////////////// Navigation /////////////////////////*/
+.nav-custom .nav-link {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #382100;
+}
+.basket {
+  display: flex;
+  align-items: flex-end;
+}
+.nav-hr {
+  border-bottom: 2px solid #382100;
+  opacity: 1;
+}
+.mb-n3 {
+  margin-bottom: -0.75rem !important
+}
+/*//////////////////////// Breadcrumb /////////////////////////*/
+.breadcrumb-custom * {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.breadcrumb-black *, .breadcrumb-black .breadcrumb-item::before {
+  color: #000000 !important;
+}
+.breadcrumb-green *, .breadcrumb-green .breadcrumb-item::before {
+  color: #6C9A31 !important;
+}
+/*///////////////////// FOOTER /////////////////////////*/
+footer {
+  background-image: url(../img/svg-img/footer_catalog_bg.svg);
+  background-repeat: no-repeat;
+  background-color: #6c9a31;
+  padding: 27px 0px 45px;
+}
+.footer-menu {
+  margin-bottom: 0xp;
+}
+.footer-menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link-footer {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+}
+.copyright img {
+  margin-right: 13px;
+}
+.copyright p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* main */
+.product-img {
+  width: 100%;
+  height: auto;
+}
+.product-in_stock {
+  position: relative;
+}
+.product-in_stock:after {
+  content: '';
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: url("../img/in_stock.png") no-repeat;
+  background-size: contain;
+}
+.product-info {
+  display: block;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.product-title {
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.product-cost {
+  font-family: "Rubik", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #EB3F09;
+}
+.product-count {
+  border: 2px solid #6C9A31;
+  border-radius: 100px;
+}
+.product-count * {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.product-count .btn, .product-count span {
+  width: 20px;
+  text-align: center;
+}
+.product-count .btn:first-child {
+  border-radius: 100px 0 0 100px;
+}
+.product-count .btn:last-child {
+  border-radius: 0 100px 100px 0;
+}
+.btn-add_to_cart {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #6C9A31;
+  border-radius: 0;
+  height: 60px;
+  width: 262px;
+}
+.product-description-nav {
+  border: none;
+}
+.product-description-nav .nav-link {
+  border: none;
+  color: #14320A;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+}
+.product-description-nav .nav-link.active:after {
+  content: '';
+  position: absolute;
+  left: 2%;
+  bottom: -10px;
+  width: 96%;
+  border-bottom: 3px #14320A solid;
+}
+.product-description * {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.text-green {
+  color: #6C9A31;
+}
+.product-guide {
+  display: flex;
+}
+.product-guide-img {
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.product-guide-text {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 1.5rem;
+}
+.product-separator {
+  position: relative;
+}
+.product-separator:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-left: #382100 2px solid;
+}
+.product-size-table tr, .product-size-table td, .product-size-table th {
+  border-bottom-width: 0 !important;
+}
+.product-size-table thead {
+  border-bottom: #382100 2px solid !important;
+}
+.product-size-table td {
+  vertical-align: middle !important;
+}
+.product-size-table input[type="radio"] {
+  border: 2px #000 solid;
+  width: 28px;
+  height: 28px;
+}
+.product-size-table input[type="radio"]:checked {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%236C9A31'/%3e%3c/svg%3e");
+}
+.size-column {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.cost-column {
+  color: #EB3F09;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.similar_product-section-title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #14320A;
+  position: relative;
+  display: inline;
+  width: auto;
+}
+.similar_product-section-title:after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 20%;
+  width: 60%;
+  border-bottom: 3px #14320A solid;
+}
+.similar_product-img {
+  margin-bottom: 1.5rem;
+}
+.similar_product-title {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.similar_product-cost {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+.roadmap-item {
+  display: flex;
+  align-items: center;
+}
+.roadmap-title {
+  margin-left: 1rem;
+  color: #14320A;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+.btn-roadmap {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 100px 0 100px 0;
+  background: #6C9A31;
+  color: white;
+  width: 188px;
+  height: 42px;
+}
